@@ -6,8 +6,8 @@
 </head>
 <body>
     <h2>Edit menu item</h2>
-    <form>
-        <input type="text" name="rename">
+    <form action="{{url_for('editMenuItem',restaurantId = restaurantId,menuId=menuId)}}" method="post">
+        <input type="text" name="rename" placeholder="{{ name }}">
         <input type="submit" value="Rename">
         <a href="{{url_for('menu',restaurantId = restaurantId)}}">Cancel</a>
     </form>

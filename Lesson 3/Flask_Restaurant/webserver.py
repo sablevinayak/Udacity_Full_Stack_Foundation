@@ -28,7 +28,7 @@ def menu(restaurantId):
 def newMenuItem(restaurantId):
     if request.method == "POST":
         name = request.form['menuItem']
-        c , conn=getConnection()
+        c , conn = getConnection()
         c.execute('INSERT INTO menu_item(name,description,price,course,restaurant_id) VALUES ("'+name+'","Chicken Chicken","$12","Main","'+str(restaurantId)+'")')
         conn.commit()
         return redirect(url_for('menu',restaurantId=restaurantId))
@@ -36,20 +36,32 @@ def newMenuItem(restaurantId):
         return render_template("newMenuItem.html" , restaurantId=restaurantId)
 
 
-@app.route("/restaurant/<int:restaurantId>/<int:menuId>/edit")
+@app.route("/restaurant/<int:restaurantId>/<int:menuId>/edit", methods=['GET','POST'])
 def editMenuItem(restaurantId, menuId):
     if request.method == "POST":
         name = request.form['rename']
+        print(name)
         c , conn=getConnection()
-        c.execute('INSERT INTO menu_item(name,description,price,course,restaurant_id) VALUES ("'+name+'","Chicken Chicken","$12","Main","'+str(restaurantId)+'")')
+        c.execute('UPDATE menu_item SET name="'+name+'" WHERE id = "'+str(menuId)+'" AND restaurant_id="'+str(restaurantId)+'"')
         conn.commit()
         return redirect(url_for('menu',restaurantId=restaurantId))
-    return render_template("editMenuItem.html",restaurantId = restaurantId,menuId = menuId)
+    c =getConnection()
+    c.execute('SELECT name FROM menu_item WHERE id="'+str(menuId)+'" AND restaurant_id="'+str(restaurantId)+'"')
+    name = c.fetchall()[0][0]
+    return render_template("editMenuItem.html" , restaurantId = restaurantId , menuId = menuId,name = name)
 
 
-@app.route("/restaurant/<int:restaurantId>/<int:menuId>/delete")
+@app.route("/restaurant/<int:restaurantId>/<int:menuId>/delete" , methods=['GET', 'POST'])
 def deleteMenuItem(restaurantId, menuId):
-    return "page to delete a menu item. Task 3 complete!"
+    c , conn = getConnection()
+    c.execute('SELECT name FROM menu_item where id="'+str(menuId)+'" AND restaurant_id="'+str(restaurantId)+'"')
+    name = c.fetchall()[0][0]
+    if request.method == 'POST':
+        c.execute('DELETE FROM menu_item WHERE name = "'+name+'" AND id = "'+str(menuId)+'" AND restaurant_id = "'+str(restaurantId)+'"')
+        conn.commit()
+        print("DOne")
+        return redirect(url_for('menu', restaurantId=restaurantId))
+    return render_template("deleteMenuItem.html",restaurantId = restaurantId , menuId = menuId, name=name)
 
 
 if __name__ == '__main__':
