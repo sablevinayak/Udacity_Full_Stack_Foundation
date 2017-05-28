@@ -1,0 +1,13 @@
+.image{
+    width: 100%;
+    max-width: 1920px;
+    background: url("../images/main.jpg") no-repeat ;
+    background-size: 100%;
+}
+
+.title{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
