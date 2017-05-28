@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <!--<link href="/static/css/main.css" rel="stylesheet" type="text/css">-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="title">{{ title }}</h1>
+    </div>
+        <h3><a href="{{ url_for('newMenuItem' , restaurantId = restaurantId) }}">Create new menu item</a></h3>
+        <br>
+        <br>
+
+        {% with message = get_flashed_messages() %}
+            {% if message %}
+                <ul>
+                    <li>{{ message[0] }}</li>
+                </ul>
+            {% endif %}
+        {% endwith %}
+
+        {% for row in menu %}
+            <div>
+                <h4>Name: {{ row[0] }}<br></h4>
+                <h4>Description: {{ row[2] }}<br></h4>
+                <h4>Price: {{ row[3] }}<br></h4>
+                <a href="{{ url_for('editMenuItem',restaurantId = restaurantId , menuId = row[1]) }}">Edit</a>
+                <br>
+                <a href="{{ url_for('deleteMenuItem',restaurantId = restaurantId , menuId = row[1]) }}">Delete</a>
+                <br><br>
+            </div>
+        {% endfor %}
+
+</div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

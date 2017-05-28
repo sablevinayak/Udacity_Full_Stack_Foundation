@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f08cd844-51c2-46e0-a777-ae33c6bb382f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/restaurantmenu.db" afterPath="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/restaurantmenu.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/deleteMenuItem.html" afterPath="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/deleteMenuItem.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/index.html" afterPath="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/webserver.py" afterPath="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/webserver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 4 (Project)/Project/static/images/main.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 4 (Project)/Project/database_setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 4 (Project)/Project/lotsofmenu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 4 (Project)/Project/restaurantmenu.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 4 (Project)/Project/static/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 4 (Project)/Project/templates/deleteMenuItem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 4 (Project)/Project/templates/editMenuItem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 4 (Project)/Project/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 4 (Project)/Project/templates/newMenuItem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson 4 (Project)/Project/webserver.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,85 +35,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="webserver.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/webserver.py">
+      <file leaf-file-name="webserver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson 4 (Project)/Project/webserver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#85#0" expanded="true" />
-                <marker date="1495859404648" expanded="true" signature="454:478" ph="SELECT * FRO... menu_item" />
-                <marker date="1495859404648" expanded="true" signature="454:501" ph="SELECT * FRO... menu_item" />
-                <marker date="1495859404648" expanded="true" signature="454:523" ph="SELECT * FRO... menu_item" />
-                <marker date="1495859404648" expanded="true" signature="454:525" ph="SELECT * FRO... menu_item" />
-                <marker date="1495859404648" expanded="true" signature="1006:1044" ph="SELECT name restaurant" />
-                <marker date="1495859404648" expanded="true" signature="1118:1163" ph="SELECT * FRO... menu_item" />
-                <marker date="1495859404648" expanded="true" signature="1580:1721" ph="INSERT INTO menu_item... " />
-                <marker date="1495859404648" expanded="true" signature="2206:2233" ph="UPDATE menu_... " />
-                <marker date="1495859404648" expanded="true" signature="2206:2242" ph="UPDATE menu_... " />
-                <marker date="1495859404648" expanded="true" signature="2206:2255" ph="UPDATE menu_... " />
-                <marker date="1495859404648" expanded="true" signature="2206:2271" ph="UPDATE menu_... " />
-                <marker date="1495859404648" expanded="true" signature="2206:2291" ph="UPDATE menu_... " />
-                <marker date="1495859404648" expanded="true" signature="2206:2313" ph="UPDATE menu_... " />
-                <marker date="1495859404648" expanded="true" signature="2206:2315" ph="UPDATE menu_... " />
-                <marker date="1495859404648" expanded="true" signature="2477:2513" ph="SELECT name menu_item" />
-                <marker date="1495859404648" expanded="true" signature="2477:2514" ph="SELECT name menu_item" />
-                <marker date="1495859404648" expanded="true" signature="2477:2530" ph="SELECT name menu_item" />
-                <marker date="1495859404648" expanded="true" signature="2477:2550" ph="SELECT name menu_item" />
-                <marker date="1495859404648" expanded="true" signature="2477:2572" ph="SELECT name menu_item" />
-                <marker date="1495859404648" expanded="true" signature="2477:2574" ph="SELECT name menu_item" />
-                <marker date="1495859404648" expanded="true" signature="2894:2989" ph="SELECT name menu_item" />
-                <marker date="1495859404648" expanded="true" signature="3074:3190" ph="DELETE FROM " />
+                <element signature="e#0#84#0" expanded="true" />
+                <marker date="1495991082382" expanded="true" signature="374:443" ph="SELECT * FRO... menu_item" />
+                <marker date="1495991082382" expanded="true" signature="926:964" ph="SELECT name restaurant" />
+                <marker date="1495991082382" expanded="true" signature="1038:1083" ph="SELECT * FRO... menu_item" />
+                <marker date="1495991082382" expanded="true" signature="1500:1641" ph="INSERT INTO menu_item... " />
+                <marker date="1495991082382" expanded="true" signature="2126:2233" ph="UPDATE menu_... " />
+                <marker date="1495991082382" expanded="true" signature="2397:2492" ph="SELECT name menu_item" />
+                <marker date="1495991082382" expanded="true" signature="2814:2909" ph="SELECT name menu_item" />
+                <marker date="1495991082382" expanded="true" signature="2994:3110" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/static/css/main.css">
+      <file leaf-file-name="restaurants.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lesson 4 (Project)/Project/templates/restaurants.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editMenuItem.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/editMenuItem.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleteMenuItem.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/deleteMenuItem.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newMenuItem.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/newMenuItem.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="87" />
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -120,8 +71,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -144,6 +95,8 @@
         <option value="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/webserver.py" />
         <option value="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/static/css/main.css" />
         <option value="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/index.html" />
+        <option value="$PROJECT_DIR$/Lesson 4 (Project)/Project/webserver.py" />
+        <option value="$PROJECT_DIR$/Lesson 4 (Project)/Project/templates/restaurants.html" />
       </list>
     </option>
   </component>
@@ -173,8 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,8 +138,116 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDACITY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDACITY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson 4 (Project)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDACITY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDACITY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson 4 (Project)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDACITY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDACITY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson 4 (Project)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDACITY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDACITY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson 4 (Project)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDACITY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDACITY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson 3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flask_Restaurant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,13 +259,14 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/static/css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lesson 4 (Project)" />
       <recent name="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/static/images" />
       <recent name="$PROJECT_DIR$/Database" />
       <recent name="$PROJECT_DIR$/Flask_Restaurant" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lesson 3/Flask_Restaurant/static/css" />
     </key>
   </component>
   <component name="RunManager" selected="Python.webserver (3)">
@@ -527,31 +587,39 @@
       <option name="presentableId" value="Default" />
       <updated>1493227015443</updated>
     </task>
+    <task id="LOCAL-00001" summary="Intial Project.">
+      <created>1495991106552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495991106552</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2031722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20619336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3149847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -580,59 +648,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Intial Project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Intial Project." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/deleteMenuItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/newMenuItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/webserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#85#0" expanded="true" />
-            <marker date="1495859404648" expanded="true" signature="454:478" ph="SELECT * FRO... menu_item" />
-            <marker date="1495859404648" expanded="true" signature="454:501" ph="SELECT * FRO... menu_item" />
-            <marker date="1495859404648" expanded="true" signature="454:523" ph="SELECT * FRO... menu_item" />
-            <marker date="1495859404648" expanded="true" signature="454:525" ph="SELECT * FRO... menu_item" />
-            <marker date="1495859404648" expanded="true" signature="1006:1044" ph="SELECT name restaurant" />
-            <marker date="1495859404648" expanded="true" signature="1118:1163" ph="SELECT * FRO... menu_item" />
-            <marker date="1495859404648" expanded="true" signature="1580:1721" ph="INSERT INTO menu_item... " />
-            <marker date="1495859404648" expanded="true" signature="2206:2233" ph="UPDATE menu_... " />
-            <marker date="1495859404648" expanded="true" signature="2206:2242" ph="UPDATE menu_... " />
-            <marker date="1495859404648" expanded="true" signature="2206:2255" ph="UPDATE menu_... " />
-            <marker date="1495859404648" expanded="true" signature="2206:2271" ph="UPDATE menu_... " />
-            <marker date="1495859404648" expanded="true" signature="2206:2291" ph="UPDATE menu_... " />
-            <marker date="1495859404648" expanded="true" signature="2206:2313" ph="UPDATE menu_... " />
-            <marker date="1495859404648" expanded="true" signature="2206:2315" ph="UPDATE menu_... " />
-            <marker date="1495859404648" expanded="true" signature="2477:2513" ph="SELECT name menu_item" />
-            <marker date="1495859404648" expanded="true" signature="2477:2514" ph="SELECT name menu_item" />
-            <marker date="1495859404648" expanded="true" signature="2477:2530" ph="SELECT name menu_item" />
-            <marker date="1495859404648" expanded="true" signature="2477:2550" ph="SELECT name menu_item" />
-            <marker date="1495859404648" expanded="true" signature="2477:2572" ph="SELECT name menu_item" />
-            <marker date="1495859404648" expanded="true" signature="2477:2574" ph="SELECT name menu_item" />
-            <marker date="1495859404648" expanded="true" signature="2894:2989" ph="SELECT name menu_item" />
-            <marker date="1495859404648" expanded="true" signature="3074:3190" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -700,14 +724,6 @@
     <entry file="file://$PROJECT_DIR$/Flask_Restaurant/templates/index.html" />
     <entry file="file://$PROJECT_DIR$/Flask_Restaurant/webserver.py" />
     <entry file="file://$PROJECT_DIR$/Flask_Restaurant/templates/editMenuItem.html" />
-    <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/editMenuItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/newMenuItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -753,17 +769,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/webserver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
+        <state relative-caret-position="492">
           <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding>
             <element signature="e#0#85#0" expanded="true" />
@@ -790,6 +798,56 @@
             <marker date="1495859404648" expanded="true" signature="2894:2989" ph="SELECT name menu_item" />
             <marker date="1495859404648" expanded="true" signature="3074:3190" ph="DELETE FROM " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson 4 (Project)/Project/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/editMenuItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson 3/Flask_Restaurant/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson 4 (Project)/Project/webserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+            <marker date="1495991082382" expanded="true" signature="374:443" ph="SELECT * FRO... menu_item" />
+            <marker date="1495991082382" expanded="true" signature="926:964" ph="SELECT name restaurant" />
+            <marker date="1495991082382" expanded="true" signature="1038:1083" ph="SELECT * FRO... menu_item" />
+            <marker date="1495991082382" expanded="true" signature="1500:1641" ph="INSERT INTO menu_item... " />
+            <marker date="1495991082382" expanded="true" signature="2126:2233" ph="UPDATE menu_... " />
+            <marker date="1495991082382" expanded="true" signature="2397:2492" ph="SELECT name menu_item" />
+            <marker date="1495991082382" expanded="true" signature="2814:2909" ph="SELECT name menu_item" />
+            <marker date="1495991082382" expanded="true" signature="2994:3110" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson 4 (Project)/Project/templates/restaurants.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
