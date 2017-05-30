@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Edit Menu Item</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+
+<form action="{{url_for('editMenuItem',restaurantId = restaurantId,menuId=menuId)}}" method="post" class="container">
     <h2>Edit menu item</h2>
-    <form action="{{url_for('editMenuItem',restaurantId = restaurantId,menuId=menuId)}}" method="post">
-        <input type="text" name="rename" placeholder="{{ name }}">
-        <input type="submit" value="Rename">
-        <a href="{{url_for('menu',restaurantId = restaurantId)}}">Cancel</a>
+    <input type="text" name="rename" placeholder="{{ name }}" class="form-control">
+    <br>
+    <input type="submit" value="Rename" class=".btn">
+    <br>
+    <br>
+    <a href="{{url_for('menu',restaurantId = restaurantId)}}" class=".btn-link">Cancel</a>
     </form>
 </body>
 </html>
