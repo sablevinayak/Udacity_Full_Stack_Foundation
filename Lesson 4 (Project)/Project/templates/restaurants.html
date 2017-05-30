@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Restaurants</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+<div class="container">
+    <div class="jumbotron clearfix">
+        <h3>List of restaurants</h3>
+    </div>
+    <div class="">
+        <a href="{{url_for('newRestaurant')}}">Create new Restaurant</a>
+    </div>
 
+    {% for restaurant in restaurants %}
+    <h4><a href="{{url_for('menu',restaurantId = restaurant[0] )}}">{{ restaurant[1] }}</a></h4>
+    <h5><a href="{{url_for('editRestaurant', restaurantId = restaurant[0])}}">Edit</a></h5>
+    <h5><a href="{{url_for('deleteRestaurant' , restaurantId = restaurant[0])}}">Delete</a></h5>
+    <br>
+    {% endfor %}
+
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
 </html>
